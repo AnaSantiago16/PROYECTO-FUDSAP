@@ -1,13 +1,11 @@
-Aquí tienes un archivo `README.md` completo y profesional para tu proyecto **Comida rápida FUDSAP**:
-
-```markdown
+markdown
 # 🍔 Comida Rápida FUDSAP - Sistema de Gestión
 
 **Equipo #15**  
 **Integrantes:**  
 - Desarrollador y diseñador: Santiago Pérez Ana Belen  
 
-## 📌 Descripción del Sistema
+📌 Descripción del Sistema
 Sistema de gestión integral para restaurantes de comida rápida que permite:
 - Identificación de roles (Admin, Cajero, Cliente)
 - Gestión de compra/venta de alimentos
