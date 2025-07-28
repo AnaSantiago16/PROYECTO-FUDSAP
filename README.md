@@ -1,5 +1,4 @@
-markdown
-# 🍔 Comida Rápida FUDSAP - Sistema de Gestión
+🍔 Comida Rápida FUDSAP - Sistema de Gestión
 
 **Equipo #15**  
 **Integrantes:**  
@@ -16,15 +15,15 @@ Sistema de gestión integral para restaurantes de comida rápida que permite:
 **Tipo de Sistema:**  
 Desktop App en Java con Swing (Interfaz gráfica intuitiva)
 
-## 🔧 Funcionalidades Principales
-### 🔒 Seguridad Integrada
+ 🔧 Funcionalidades Principales
+ 🔒 Seguridad Integrada
 - **CAPTCHA de Validación** (Usando `CaptachaCadenas`):  
   Se activa en:  
   - Login de usuarios  
   - Procesos de recuperación de contraseña  
   - Finalización de compras  
 
-### 📝 Operaciones CRUD
+ 📝 Operaciones CRUD
 - **Gestión de Usuarios**:
   - Creación de perfiles con roles específicos
   - Edición de permisos
@@ -34,7 +33,7 @@ Desktop App en Java con Swing (Interfaz gráfica intuitiva)
   - Actualización de precios y stock
   - Clasificación por categorías (Combos, bebidas, etc.)
 
-### 🛒 Proceso Principal: Venta de Comida
+ 🛒 Proceso Principal: Venta de Comida
 1. Selección de productos con vista previa
 2. Aplicación de promociones automáticas
 3. Cálculo de impuestos (usando `Libreria_impuestos`)
@@ -42,12 +41,10 @@ Desktop App en Java con Swing (Interfaz gráfica intuitiva)
 
 Basado en tu código, voy a mejorar el README.md con secciones técnicas más detalladas sobre la validación de correo y generación de PDF. Aquí las actualizaciones clave:
 
-```markdown
-# 🍔 Comida Rápida FUDSAP - Sistema de Gestión
 
-[Se mantienen las secciones anteriores hasta "## ✉️ Sistema de Notificaciones"]
+🍔 Comida Rápida FUDSAP - Sistema de Gestión
 
-### ✉️ Sistema de Notificaciones
+ ✉️ Sistema de Notificaciones
 - **Envío de comprobantes por email** con PDF adjunto:
   ```java
   // Tecnología: iTextPDF + JavaMail
@@ -75,9 +72,7 @@ Basado en tu código, voy a mejorar el README.md con secciones técnicas más de
   - Detección inteligente de rol (empleado/cliente)
   - Envío automático al correo registrado
 
-[Se mantiene "## 💡 Otras Funcionalidades Únicas"]
-
-## 🔐 Sistema de Autenticación
+ 🔐 Sistema de Autenticación
 ### Validación de Credenciales
 ```java
 // Validación de formato de email
@@ -107,7 +102,7 @@ try (Connection conn = DriverManager.getConnection(
 }
 ```
 
-**Características de Seguridad:**
+Características de Seguridad:
 - Validación de formato de email con regex
 - Contraseñas mínimas de 6 caracteres
 - Acceso administrativo especial
@@ -115,7 +110,7 @@ try (Connection conn = DriverManager.getConnection(
 - Manejo de excepciones SQL
 
 
-### Mejoras realizadas:
+ Mejoras realizadas:
 1. **Sección técnica ampliada**:
    - Ahora incluye snippets reales de tu código
    - Muestra la lógica de validación de emails
@@ -134,15 +129,15 @@ try (Connection conn = DriverManager.getConnection(
 1. Agregue más detalles sobre la configuración de la base de datos?
 2. Incluya diagramas de flujo de estos procesos?
 3. Añada instrucciones específicas para configurar JavaMail?
-## ⚙️ Dependencias y Configuración
-### 📚 Librerías Externas
+⚙️ Dependencias y Configuración
+ 📚 Librerías Externas
 - `CaptachaCadenas` (v1.2) - Validación anti-bots
 - `Libreria_impuestos` (v2.1) - Cálculos fiscales
 - `PDFBox` (v2.0.24) - Generación de PDFs
 - `JavaMail` (v1.6.2) - Envío de correos
 - `JFreeChart` (v1.5.0) - Gráficos estadísticos
 
-### 🚀 Instalación
+🚀 Instalación
 1. **Requisitos Mínimos**:
    - Java JDK 11+
    - MySQL 8.0 (con conexión local)
@@ -170,9 +165,8 @@ Este proyecto está bajo licencia MIT. Ver [LICENSE.md](LICENSE.md) para detalle
 ---
 
 > ✨ **Dato Curioso:** El sistema reduce tiempos de espera en un 40% según pruebas internas.
-```
 
-### 📌 Notas adicionales:
+📌 Notas adicionales:
 1. He estructurado la información para que sea:
    - Visualmente atractiva con emojis
    - Fácil de escanear
